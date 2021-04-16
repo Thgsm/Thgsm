@@ -1,0 +1,38 @@
+# This is a basic workflow to help you get started with Actions
+
+name: CI
+
+# Controls when the action will run. 
+on: always
+  # Triggers the workflow on push or pull request events but only for the main branch
+  push: auto
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch: ./git/workflow
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs: GITHUB_TOKEN
+  # This workflow contains a single job called "build"
+  build:GITHUB_TOKEN
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: GITHUB CLI : ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOpVY11yUokgNnF8+ZcETTZj+w3RO01O2IgYecpzaDz1 
+
+
+
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo Hello, world!
+
+      # Runs a set of commands using the runners shell
+      - name: Run a multi-line script
+        run: echo Hello!
+          
+ 
