@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @Thgsm
-- 👀 I’m interested in ... Termux
+- 👀 I’m interested in ... javascript
 - 🌱 I’m currently learning ... github
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me ...
